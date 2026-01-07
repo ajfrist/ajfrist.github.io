@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Aaron Frist</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="/index.html" class="nav-home-link"><h1>Aaron Frist</h1></a>
+            <div class="nav-buttons">
+                <a href="/index.html"><button id="homeBtn">Home</button></a>
+                <a href="/portfolio.html"><button id="projectsBtn" class="active">Portfolio</button></a>
+            </div>
+            <button id="themeToggle" class="theme-toggle" title="Toggle dark/light mode">🌙</button>
+        </div>
+    </nav>
+    <main>
+        <div class="section-header">
+            <svg class="icon" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z"/>
+            </svg>
+            <h2>Portfolio</h2>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card" style="border-top: 6px solid #3b82f6;">
+                <div class="project-content">
+                    <div class="project-title">
+                        <h3>ARISE Exercise Assistant</h3>
+                        <a href="https://github.com/BlueJayADAL/SCARP25_ARISE" target="_blank">
+                            <img src="/global-media/github_image.svg" alt="GitHub" class="social-icon github-social-button" title="View on GitHub" />
+                        </a>
+                    </div>
+                    <p class="project-description">Uses computer vision and language models to assist with exercise form and tracking</p>
+                    <div class="tech-tags">
+                        <img src="/global-media/python_image.png" alt="Python" class="skill-img" title="Python" />
+                        <img src="/global-media/react_image.png" alt="React" class="skill-img" title="React" />
+                        <img src="/global-media/restapi_image.png" alt="RestAPI" class="skill-img" title="RestAPI" />
+                        <img src="/global-media/opencv_image.png" alt="OpenCV" class="skill-img" title="OpenCV" />
+                    </div>
+                </div>
+            </div>
+            <div class="project-card" style="border-top: 6px solid #06b6d4;">
+                <div class="project-content">
+                    <div class="project-title">
+                        <h3>Basketball Matchup Predictor</h3>
+                        <a href="https://github.com/kebodmk/Landmark-Conference-Prediction-Model" target="_blank">
+                            <img src="/global-media/github_image.svg" alt="GitHub" class="social-icon github-social-button" title="View on GitHub" />
+                        </a>
+                    </div>
+                    <p class="project-description">Predicts outcomes of basketball matchups in the Landmark Conference using statistical models and machine learning</p>
+                    <div class="tech-tags">
+                        <img src="/global-media/python_image.png" alt="Python" class="skill-img" title="Python" />
+                        <img src="/global-media/jupyter_image.png" alt="Jupyter" class="skill-img" title="Jupyter" />
+                        <img src="/global-media/scikitlearn_image.png" alt="Scikit-learn" class="skill-img" title="Scikit-learn" />
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="project-card" style="border-top: 6px solid #10b981;">
+                <div class="project-content">
+                    <div class="project-title">
+                        <h3>Handwriting Gen</h3>
+                        <a href="https://github.com/ajfrist/HandwritingGen" target="_blank">
+                            <img src="/global-media/github_image.svg" alt="GitHub" class="social-icon github-social-button" title="View on GitHub" />
+                        </a>
+                    </div>
+                    <p class="project-description">Machine Learning application using cubic splines to recognize and synthesize user handwritten characters.</p>
+                    <div class="tech-tags">
+                        <img src="/global-media/react_image.png" alt="React" class="skill-img" title="React" />
+                        <img src="/global-media/python_image.png" alt="Python" class="skill-img" title="Python" />
+                        <img src="/global-media/javascript_image.svg" alt="JavaScript" class="skill-img" title="JavaScript" />
+                        <img src="/global-media/restapi_image.png" alt="RestAPI" class="skill-img" title="RestAPI" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>© <span id="currentYear"></span> Aaron Frist. All rights reserved.</p>
+    </footer>
+    <script src="/js/global.js"></script>
+</body>
+</html>
