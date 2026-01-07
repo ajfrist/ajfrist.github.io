@@ -1,45 +1,18 @@
 const skills = [
-    { name: 'JavaScript', img: '/global-media/js.png' },
-    { name: 'Python', img: '/global-media/python.png' },
-    { name: 'React', img: '/global-media/react.png' },
-    { name: 'Node.js', img: '/global-media/node.png' },
-    { name: 'SQL', img: '/global-media/sql.png' },
-    { name: 'Git', img: '/global-media/git.png' }
-];
-
-const projects = [
-    {
-        id: 1,
-        title: 'Task Management App',
-        description: 'A full-stack web application for managing daily tasks with user authentication',
-        tech: ['React', 'Node.js', 'MongoDB', 'Express'],
-        status: 'Completed',
-        color: 'blue'
-    },
-    {
-        id: 2,
-        title: 'Weather Dashboard',
-        description: 'Real-time weather tracking application with interactive maps and forecasts',
-        tech: ['JavaScript', 'API Integration', 'CSS3'],
-        status: 'Completed',
-        color: 'cyan'
-    },
-    {
-        id: 3,
-        title: 'E-commerce Platform',
-        description: 'Online shopping platform with cart functionality and payment integration',
-        tech: ['React', 'Redux', 'Stripe API', 'Firebase'],
-        status: 'In Progress',
-        color: 'green'
-    },
-    {
-        id: 4,
-        title: 'Portfolio Generator',
-        description: 'Tool for developers to create customizable portfolio websites',
-        tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
-        status: 'Completed',
-        color: 'purple'
-    }
+    { name: 'Python', img: '/global-media/python_image.png' },
+    { name: "Java", img: '/global-media/java_image.png' },
+    { name: 'JavaScript', img: '/global-media/javascript_image.svg' },
+    { name: 'C#', img: '/global-media/csharp_image.svg' },
+    { name: 'React Native', img: '/global-media/react_image.png' },
+    { name: 'Node.js', img: '/global-media/nodejs_image.svg' },
+    { name: 'SQL', img: '/global-media/sql_image.png' },
+    { name: 'Git', img: '/global-media/git_image.png' },
+    // { name: '.NET Core', img: '/global-media/dotnetcore_image.svg' },
+    { name: 'RestAPI', img: '/global-media/restapi_image.png' },
+    // { name: 'Heroku', img: '/global-media/heroku_image.svg' },
+    // { name: 'LinkedIn', img: '/global-media/linkedin_image.svg' },
+    // { name: 'NPM', img: '/global-media/npm_image.svg' },
+    // { name: 'PostgreSQL', img: '/global-media/postgresql_image.svg' },
 ];
 
 function showPage(page) {

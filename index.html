@@ -10,7 +10,7 @@
 <body>
     <nav>
         <div class="container">
-            <h1>Aaron Frist</h1>
+            <a href="/index.html" class="nav-home-link"><h1>Aaron Frist</h1></a>
             <div class="nav-buttons">
                 <a href="/index.html"><button id="homeBtn" class="active">Home</button></a>
                 <a href="/portfolio.html"><button id="projectsBtn">Portfolio</button></a>
@@ -23,10 +23,19 @@
         <div id="homePage" class="page active">
             <section id="profile">
                 <div class="profile-container">
-                    <img src="/global-media/profile.jpg" alt="Aaron Frist" class="profile-img" />
+                    <img src="/global-media/profile-pic.png" alt="Aaron Frist" class="profile-img" />
                     <div class="profile-info">
                         <h1>Aaron Frist</h1>
-                        <h3>Web Developer & CS Student</h3>
+                        <h3>Software Developer & CS Student</h3>
+
+                        <div class="social-buttons">
+                        <a href="https://www.github.com/ajfrist" target="_blank">
+                            <img src="/global-media/github_image.svg" alt="GitHub" class="social-icon github-social-button" />
+                        </a>
+                        <a href="https://www.linkedin.com/in/aaronfrist" target="_blank">
+                            <img src="/global-media/linkedin_image.png" alt="LinkedIn" class="social-icon linkedin-social-button" />
+                        </a>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -38,20 +47,9 @@
                     <h2>About Me</h2>
                 </div>
                 <p>
-                    Hi! I'm a passionate Computer Science student with a love for creating innovative solutions through code. 
-                    I specialize in web development and enjoy turning complex problems into simple, beautiful interfaces.
+                    Hi! I am currently a computer science student at Elizabethtown College concentrating in AI and Data Science.
+                    I enjoy building machine learning and computer vision pipelines when not busy with studies and life.
                 </p>
-                <p>
-                    Currently pursuing my degree while working on exciting projects that combine creativity with technical expertise.
-                </p>
-                <div class="social-buttons">
-                    <a href="https://www.github.com/ajfrist" target="_blank">
-                        <img src="/global-media/github.png" alt="GitHub" class="social-icon" />
-                    </a>
-                    <a href="https://www.linkedin.com/in/aaronfrist" target="_blank">
-                        <img src="/global-media/linkedin.png" alt="LinkedIn" class="social-icon" />
-                    </a>
-                </div>
             </section>
 
             <section id="skills">
@@ -85,6 +83,14 @@
                         <h3>Card Games</h3>
                     </div>
                     <div class="hobby-card">
+                        <div class="hobby-icon">🎳</div>
+                        <h3>Bowling</h3>
+                    </div>
+                    <div class="hobby-card">
+                        <div class="hobby-icon">🗣️</div>
+                        <h3>Socializing</h3>
+                    </div>
+                    <div class="hobby-card">
                         <div class="hobby-icon">🛠️</div>
                         <h3>DIY Projects</h3>
                     </div>
@@ -95,14 +101,12 @@
                 </div>
             </section>
         </div>
-
-        <!-- Portfolio page is now separate: see portfolio.html -->
     </main>
 
     <footer>
         <p>© <span id="currentYear"></span> Aaron Frist. All rights reserved.</p>
     </footer>
 
-    <script src="/homePage.js"></script> 
+    <script src="/js/global.js"></script> 
 </body>
 </html>
