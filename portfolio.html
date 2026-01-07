@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Aaron Frist</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <h1>Aaron Frist</h1>
+            <div class="nav-buttons">
+                <a href="/index.html"><button id="homeBtn">Home</button></a>
+                <a href="/portfolio.html"><button id="projectsBtn" class="active">Portfolio</button></a>
+            </div>
+            <button id="themeToggle" class="theme-toggle" title="Toggle dark/light mode">🌙</button>
+        </div>
+    </nav>
+    <main>
+        <div class="section-header">
+            <svg class="icon" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z"/>
+            </svg>
+            <h2>Portfolio</h2>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-header blue"></div>
+                <div class="project-content">
+                    <div class="project-title">
+                        <h3>Task Management App</h3>
+                        <span class="status-badge completed">Completed</span>
+                    </div>
+                    <p class="project-description">A full-stack web application for managing daily tasks with user authentication</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">Express</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-header cyan"></div>
+                <div class="project-content">
+                    <div class="project-title">
+                        <h3>Weather Dashboard</h3>
+                        <span class="status-badge completed">Completed</span>
+                    </div>
+                    <p class="project-description">Real-time weather tracking application with interactive maps and forecasts</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">API Integration</span>
+                        <span class="tech-tag">CSS3</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-header green"></div>
+                <div class="project-content">
+                    <div class="project-title">
+                        <h3>E-commerce Platform</h3>
+                        <span class="status-badge progress">In Progress</span>
+                    </div>
+                    <p class="project-description">Online shopping platform with cart functionality and payment integration</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Redux</span>
+                        <span class="tech-tag">Stripe API</span>
+                        <span class="tech-tag">Firebase</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-header purple"></div>
+                <div class="project-content">
+                    <div class="project-title">
+                        <h3>Portfolio Generator</h3>
+                        <span class="status-badge completed">Completed</span>
+                    </div>
+                    <p class="project-description">Tool for developers to create customizable portfolio websites</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Flask</span>
+                        <span class="tech-tag">Jinja2</span>
+                        <span class="tech-tag">Bootstrap</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>© <span id="currentYear"></span> Aaron Frist. All rights reserved.</p>
+    </footer>
+    <script src="/homePage.js"></script>
+</body>
+</html>
