@@ -2,9 +2,11 @@ const skills = [
     { name: 'Python', img: '/global-media/python_image.png' },
     { name: "Java", img: '/global-media/java_image.png' },
     { name: 'JavaScript', img: '/global-media/javascript_image.svg' },
+    { name: 'C', img: '/global-media/c_image.png' },
     { name: 'C#', img: '/global-media/csharp_image.svg' },
     { name: 'React Native', img: '/global-media/react_image.png' },
     { name: 'Node.js', img: '/global-media/nodejs_image.svg' },
+    { name: 'TensorFlow (Keras)', img: '/global-media/tensorflow_image.png' },
     { name: 'SQL', img: '/global-media/sql_image.png' },
     { name: 'Git', img: '/global-media/git_image.png' },
     // { name: '.NET Core', img: '/global-media/dotnetcore_image.svg' },
@@ -34,7 +36,7 @@ function renderSkills() {
         const skillDiv = document.createElement('div');
         skillDiv.className = 'skill-img-block';
         skillDiv.innerHTML = `
-            <img src="${skill.img}" alt="${skill.name}" class="skill-img" />
+            <img src="${skill.img}" alt="${skill.name}" class="skill-img" title="${skill.name}" />
             <span class="skill-name">${skill.name}</span>
         `;
         container.appendChild(skillDiv);
@@ -102,5 +104,4 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-renderSkills();
 renderSkills();
